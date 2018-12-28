@@ -1,0 +1,3 @@
+- I have looked around and did some investigate the Guru99 bank then manually test it. After investigated done, I have written 2 test scenarios for Chrome and Firefox browser. Please see the excel file "TestPlan" for more details. This is the test flow:
++ Test flow: log in to Guru99 bank -> create customer -> using new customer's id to create account -> using new account's id to deposit money.
++ In the test scenario with Firefox browser, I set the default value of "Gender" in create customer and "Account type" in create account. So when run test case with Chrome browser, please remove the double slash in front of "this.setGender" and "this.setAccType" in 2 java file: CreateCusPage, CreateAccPage.
